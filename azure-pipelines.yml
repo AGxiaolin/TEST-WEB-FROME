@@ -8,15 +8,20 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-strategy:
-  matrix:
-    Python37:
-      python.version: '3.7'
+# strategy:
+#   matrix:
+#     Python37:
+#       python.version: '3.7'
 steps:
 - task: UsePythonVersion@0
   inputs:
-    versionSpec: '$(python.version)'
-  displayName: 'Use Python $(python.version)'
+    versionSpec: '3.7'
+    addToPath: true
+#     architecture: 'x64'
+# - task: UsePythonVersion@0
+#   inputs:
+#     versionSpec: '$(python.version)'
+#   displayName: 'Use Python $(python.version)'
 
 - script: |
     python -m pip install --upgrade pip
