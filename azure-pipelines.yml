@@ -10,12 +10,15 @@ pool:
   trigger: none
 steps:
 # - task: UsePythonVersion@0
-  # inputs:
-  #   versionSpec: '3.7'
-  #   addToPath: true
+#   inputs:
+#     versionSpec: '3.7'
+#     addToPath: true
 - script: |
     python -m pip install --upgrade pip
     pip install -r requirements.txt
     python all.py
   displayName: 'Install dependencies'
-
+- task: CopyFiles@2
+  inputs:
+    Contents: '**/reqort.html' 
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/$(buildConfiguration)\C:\inetpub\wwwroot'
