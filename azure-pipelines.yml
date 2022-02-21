@@ -20,5 +20,5 @@ steps:
   displayName: 'Install dependencies'
 - task: CopyFiles@2
   inputs:
-    Contents: '**/reqort.html' 
-    TargetFolder: '$(Build.ArtifactStagingDirectory)/$(buildConfiguration)\C:\inetpub\wwwroot'
+    Contents: 'TEST-WEB-FROME\Outputs\reports\2022-02-21\reqort.html' 
+    TargetFolder: 'C:\inetpub\wwwroot'
