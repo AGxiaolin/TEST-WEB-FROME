@@ -9,6 +9,8 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 steps:
+
+
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '3.7'
@@ -16,5 +18,5 @@ steps:
 - script: |
     python -m pip install --upgrade pip
     pip install -r requirements.txt
-    python TEST-WEB-FROME/all.py
+    python all.py
   displayName: 'Install dependencies'
