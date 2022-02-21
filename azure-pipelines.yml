@@ -27,4 +27,4 @@ steps:
     python -m pip install --upgrade pip
     pip install -r requirements.txt
   displayName: 'Install dependencies'
-
+- script: python TEST-WEB-FROME/all.py
