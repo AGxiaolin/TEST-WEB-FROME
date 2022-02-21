@@ -1,0 +1,23 @@
+login:
+  faile:
+    - - test
+      - 111111
+    - - 123456
+      - 123456
+  sucess:
+    - zlzhao
+    - 123456
+
+login_datas:
+  - username: test
+    psd: 123123
+    eq: 正确的账号，错误密码，登录失败
+  - username: 123456
+    psd: 123456
+    eq: 错误的账号，正确密码，登录失败
+  - username: adsgjaisdgo
+    psd: 123123
+    eq: ＂错误的账号，错误密码，登录失败＂
+  - username: zlzhao
+    psd: 123456
+    eq: 正确账号，正确密码，登录成功

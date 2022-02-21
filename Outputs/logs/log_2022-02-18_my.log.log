@@ -1,0 +1,7 @@
+2022-02-18 10:49:46,863 - D:/Code/Web_frame_Code/common/logger_test.py[line:62] - DEBUG: debug test
+2022-02-18 10:49:46,863 - D:/Code/Web_frame_Code/common/logger_test.py[line:63] - INFO: info test
+2022-02-18 10:49:46,863 - D:/Code/Web_frame_Code/common/logger_test.py[line:64] - WARNING: warn test
+2022-02-18 10:49:46,863 - D:/Code/Web_frame_Code/common/logger_test.py[line:65] - ERROR: error test
+2022-02-18 10:50:12,097 - D:/Code/Web_frame_Code/common/logger_test.py[line:62] - DEBUG: debug test
+2022-02-18 10:50:12,098 - D:/Code/Web_frame_Code/common/logger_test.py[line:63] - INFO: info test
+2022-02-18 10:50:12,098 - D:/Code/Web_frame_Code/common/logger_test.py[line:64] - ERROR: error test

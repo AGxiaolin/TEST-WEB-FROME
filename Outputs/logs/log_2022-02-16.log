@@ -1,0 +1,49 @@
+[2022/02/16 19:49:33] basepage.py->get_url line:41 [INFO] 使用浏览器打开http://192.168.2.242:9800/
+[2022/02/16 19:49:34] basepage.py->get_url line:44 [INFO] 窗口最大化操作
+[2022/02/16 19:49:36] basepage.py->sleep line:73 [INFO] 等待时间2秒
+[2022/02/16 19:49:36] basepage.py->wait_ele_visibility line:33 [INFO] 在[登录页面]，找到元素：('id', 'LoginInput_UserNameOrEmailAddress')可见
+[2022/02/16 19:49:36] basepage.py->locator line:49 [INFO] 定位到元素：('id', 'LoginInput_UserNameOrEmailAddress')
+[2022/02/16 19:49:36] basepage.py->input line:58 [INFO] 在登录页面，元素('id', 'LoginInput_UserNameOrEmailAddress'),输入zlzhao
+[2022/02/16 19:49:37] basepage.py->sleep line:73 [INFO] 等待时间1秒
+[2022/02/16 19:49:37] basepage.py->wait_ele_visibility line:33 [INFO] 在[登录页面]，找到元素：('id', 'LoginInput_Password')可见
+[2022/02/16 19:49:37] basepage.py->locator line:49 [INFO] 定位到元素：('id', 'LoginInput_Password')
+[2022/02/16 19:49:37] basepage.py->input line:58 [INFO] 在登录页面，元素('id', 'LoginInput_Password'),输入123456
+[2022/02/16 19:49:38] basepage.py->sleep line:73 [INFO] 等待时间1秒
+[2022/02/16 19:49:38] basepage.py->wait_ele_visibility line:33 [INFO] 在[登录页面]，找到元素：('name', 'Action')可见
+[2022/02/16 19:49:38] basepage.py->locator line:49 [INFO] 定位到元素：('name', 'Action')
+[2022/02/16 19:49:40] basepage.py->click line:66 [INFO] 在登录页面,点击('name', 'Action')元素成功
+[2022/02/16 19:49:40] basepage.py->wait_ele_visibility line:33 [INFO] 在[点击下拉框]，找到元素：('xpath', "//div[@id='cloud']/i[2]")可见
+[2022/02/16 19:49:40] basepage.py->locator line:49 [INFO] 定位到元素：('xpath', "//div[@id='cloud']/i[2]")
+[2022/02/16 19:49:40] basepage.py->click line:66 [INFO] 在点击下拉框,点击('xpath', "//div[@id='cloud']/i[2]")元素成功
+[2022/02/16 19:49:42] basepage.py->sleep line:73 [INFO] 等待时间2秒
+[2022/02/16 19:49:42] basepage.py->wait_ele_visibility line:33 [INFO] 在[选择11.11测试文件夹]，找到元素：('id', '/11.11测试')可见
+[2022/02/16 19:49:42] basepage.py->locator line:49 [INFO] 定位到元素：('id', '/11.11测试')
+[2022/02/16 19:49:42] basepage.py->click line:66 [INFO] 在选择11.11测试文件夹,点击('id', '/11.11测试')元素成功
+[2022/02/16 19:49:43] basepage.py->sleep line:73 [INFO] 等待时间1秒
+[2022/02/16 19:49:44] basepage.py->wait_ele_visibility line:33 [INFO] 在[获取待阅片区角标数字]，找到元素：('xpath', "//span[@class='number']")可见
+[2022/02/16 19:49:44] basepage.py->locator line:49 [INFO] 定位到元素：('xpath', "//span[@class='number']")
+[2022/02/16 19:49:44] basepage.py->get_element_text line:87 [INFO] 在获取待阅片区角标数字,获取('xpath', "//span[@class='number']")元素的文本信息成功
+[2022/02/16 19:49:44] basepage.py->wait_ele_visibility line:33 [INFO] 在[选择第1张切片]，找到元素：('xpath', "//div[@class='slider-list-container ']/div[2]/div[1]/div/div/span")可见
+[2022/02/16 19:49:44] basepage.py->locator line:49 [INFO] 定位到元素：('xpath', "//div[@class='slider-list-container ']/div[2]/div[1]/div/div/span")
+[2022/02/16 19:49:44] basepage.py->click line:66 [INFO] 在选择第1张切片,点击('xpath', "//div[@class='slider-list-container ']/div[2]/div[1]/div/div/span")元素成功
+[2022/02/16 19:49:44] basepage.py->sleep line:73 [INFO] 等待时间0.5秒
+[2022/02/16 19:49:44] basepage.py->wait_ele_visibility line:33 [INFO] 在[选择第2张切片]，找到元素：('xpath', "//div[@class='slider-list-container ']/div[2]/div[2]/div/div/span")可见
+[2022/02/16 19:49:44] basepage.py->locator line:49 [INFO] 定位到元素：('xpath', "//div[@class='slider-list-container ']/div[2]/div[2]/div/div/span")
+[2022/02/16 19:49:44] basepage.py->click line:66 [INFO] 在选择第2张切片,点击('xpath', "//div[@class='slider-list-container ']/div[2]/div[2]/div/div/span")元素成功
+[2022/02/16 19:49:45] basepage.py->sleep line:73 [INFO] 等待时间0.5秒
+[2022/02/16 19:49:45] basepage.py->wait_ele_visibility line:33 [INFO] 在[选择第3张切片]，找到元素：('xpath', "//div[@class='slider-list-container ']/div[2]/div[3]/div/div/span")可见
+[2022/02/16 19:49:45] basepage.py->locator line:49 [INFO] 定位到元素：('xpath', "//div[@class='slider-list-container ']/div[2]/div[3]/div/div/span")
+[2022/02/16 19:49:45] basepage.py->click line:66 [INFO] 在选择第3张切片,点击('xpath', "//div[@class='slider-list-container ']/div[2]/div[3]/div/div/span")元素成功
+[2022/02/16 19:49:45] basepage.py->sleep line:73 [INFO] 等待时间0.5秒
+[2022/02/16 19:49:49] basepage.py->wait_ele_visibility line:33 [INFO] 在[获取按钮的文本信息]，找到元素：('xpath', "//button[@class='btn btn-border slide-button'][1]")可见
+[2022/02/16 19:49:49] basepage.py->locator line:49 [INFO] 定位到元素：('xpath', "//button[@class='btn btn-border slide-button'][1]")
+[2022/02/16 19:49:49] basepage.py->get_element_text line:87 [INFO] 在获取按钮的文本信息,获取('xpath', "//button[@class='btn btn-border slide-button'][1]")元素的文本信息成功
+[2022/02/16 19:49:49] basepage.py->wait_ele_visibility line:33 [INFO] 在[切片列表右侧：加入待阅片区]，找到元素：('xpath', "//button[@class='btn btn-border slide-button'][1]")可见
+[2022/02/16 19:49:49] basepage.py->locator line:49 [INFO] 定位到元素：('xpath', "//button[@class='btn btn-border slide-button'][1]")
+[2022/02/16 19:49:49] basepage.py->click line:66 [INFO] 在切片列表右侧：加入待阅片区,点击('xpath', "//button[@class='btn btn-border slide-button'][1]")元素成功
+[2022/02/16 19:49:51] basepage.py->sleep line:73 [INFO] 等待时间2秒
+[2022/02/16 19:49:52] basepage.py->sleep line:73 [INFO] 等待时间1秒
+[2022/02/16 19:49:52] basepage.py->wait_ele_visibility line:33 [INFO] 在[获取待阅片区角标数字]，找到元素：('xpath', "//span[@class='number']")可见
+[2022/02/16 19:49:52] basepage.py->locator line:49 [INFO] 定位到元素：('xpath', "//span[@class='number']")
+[2022/02/16 19:49:52] basepage.py->get_element_text line:87 [INFO] 在获取待阅片区角标数字,获取('xpath', "//span[@class='number']")元素的文本信息成功
+[2022/02/16 19:49:52] test_add_section_to_area.py->test03_adds_section_to_area line:90 [INFO] 断言成功，加入前的切片数量+1：3 = 加入后的切片数量3
