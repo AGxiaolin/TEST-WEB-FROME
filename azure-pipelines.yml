@@ -18,7 +18,3 @@ steps:
     pip install -r requirements.txt
     python all.py
   displayName: 'Install dependencies'
-# - task: CopyFiles@2
-#   inputs:
-#     Contents: 'TEST-WEB-FROME\Outputs\reports\2022-02-21\reqort.html' 
-#     TargetFolder: 'C:\inetpub\wwwroot'
